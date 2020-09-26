@@ -303,7 +303,7 @@ emagnet_screen() {
  chmod -R 700 /tmp/screen/S-root &> /dev/null
  hash screen &> /dev/null
      if [[ "$?" -gt "0" ]]; then 
-       echo -e "$basename$0: internal error -- Screen is required to be installed before you can emagnet in background..."
+       echo -e "$basename$0: internal error -- Screen is required to be installed before you can run emagnet in screen..."
        exit 1
      fi
          pid="$(ps aux |grep emagnet)"
