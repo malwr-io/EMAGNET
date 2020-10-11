@@ -1,1 +1,1 @@
-Pastebin won!
+Everything has an end.
